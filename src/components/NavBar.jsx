@@ -33,7 +33,7 @@ function Navbar({ onSearch }) {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-white">
-              Invoice App
+              Invoice
             </Link>
           </div>
           <div className="flex items-center">
