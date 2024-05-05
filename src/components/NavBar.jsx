@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-
 import InvoiceForm from './InvoiceForm.jsx';
 import axios from 'axios';
 
@@ -38,7 +36,7 @@ function Navbar({ onSearch }) {
               Invoice App
             </Link>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <div className="relative mr-6">
               <input
                 type="text"
